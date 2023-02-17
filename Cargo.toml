@@ -1,0 +1,10 @@
+cargo-features = [ "per-package-target"]
+
+[package]
+name = "forced-target"
+version = "0.1.0"
+edition = "2021"
+
+forced-target = "riscv64gc-unknown-none-elf"
+
+[dependencies]
